@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"  class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="Home">
+        <nav class="w-full h-16 bg-[#333] flex">
+            <ul class="flex items-center">
+                <li class="px-4 text-[#e0e0e0] hover:text-[#999]"><a href="#Home">Home</a></li>
+                <li class="px-4 text-[#e0e0e0] hover:text-[#999]"><a href="#About">About</a></li>
+                <li class="px-4 text-[#e0e0e0] hover:text-[#999]"><a href="#">Projects</a></li>
+                <li class="px-4 text-[#e0e0e0] hover:text-[#999]"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <!--to vertically align it, set the div container to flex and the child to m-auto-->
+            <div class="flex w-full h-screen bg-no-repeat bg-cover"
+            style="background-image: url('img/pexels-philippe-donn-1169754.jpg');"
+            >
+                <!-- <div class="mt-20">
+                    <h1 class="text-white text-7xl my-3">You tell it</h1>
+                    <h1 class="text-white text-7xl my-3">We'll make it</h1>
+                </div>
+                <a href="#" class="w-16 h-8 b">Send Email</a> -->
+            </div>
+            
+      </section>
+      <main>
+        <section id="About">
+            <h2 class="text-3xl w-48 h-14 rounded-full flex justify-center items-center mx-auto mt-16 bg-[#333] text-[#e0e0e0]">About Us</h2>
+            <div class="flex justify-center mt-24">
+              <div class="w-[660px] ">
+                <img src="img/pexels-philippe-donn-1169754.jpg" alt="" class="w-56 h-56 rounded-full mx-auto">
+                <h3 class="text-xl w-[475px] h-14 rounded-full flex justify-center items-center mt-16 bg-[#e0e0e0] text-[#333] mx-auto">Tharshen</h3>
+                <div class="w-[475px] h-96 bg-[#e0e0e0] rounded-3xl mt-6 p-5 mx-auto">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="w-[660px] " >
+                <img src="img/pexels-philippe-donn-1169754.jpg" alt="" class="w-56 h-56 rounded-full mx-auto">
+                <h3 class="text-xl w-[475px] h-14 rounded-full flex justify-center items-center mt-16 bg-[#e0e0e0] text-[#333] mx-auto">Tharshen</h3>
+                <div class="w-[475px] h-96 bg-[#e0e0e0] rounded-3xl mt-6 p-5 mx-auto">
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>    
+        </section>
+      </main>
+
+      <section class="mt-72">
+        <h2 class="text-3xl w-48 h-14 rounded-full flex justify-center items-center mx-auto mt-16 bg-[#333] text-[#e0e0e0]">Projects</h2>
+      </section>
+</body>
+</html>
